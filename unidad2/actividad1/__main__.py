@@ -1,3 +1,7 @@
-from vistas.Interfaz_mejorada import Interfaz_mejorada
+import tkinter as tk
+from vistas.Interfaz_mejorada import InterfazDibujo
+
 if __name__ == "__main__":
-    Interfaz_mejorada.mostra()
+    root = tk.Tk()
+    app = InterfazDibujo(root)
+    root.mainloop()
